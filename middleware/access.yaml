@@ -1,0 +1,8 @@
+/patients:
+  GET: ["doctor", "receptionist"]
+  POST: ["receptionist"]
+  PUT: ["doctor"]
+  DELETE: ["receptionist"]
+
+/login:
+  POST: ["doctor", "receptionist"]
