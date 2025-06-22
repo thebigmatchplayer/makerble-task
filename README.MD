@@ -1,4 +1,4 @@
-# 🏥 Markerble Portal — Role-based Patient Management API
+# 🏥 Makerble Portal Task — Role-based Patient Management API
 
 A RESTful backend service built in **Go** for managing patients in a hospital setup. Supports **JWT-based authentication**, **role-based access control (RBAC)**, and follows clean architecture patterns.
 

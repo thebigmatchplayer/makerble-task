@@ -21,6 +21,7 @@ func main() {
 	handlers.SetupRoutes()
 
 	config.Log.Info("Starting CRUD Portal on :9000")
+
 	if err := http.ListenAndServe(":9000", nil); err != nil {
 		config.Log.Fatal("Server failed", zap.Error(err))
 	}
